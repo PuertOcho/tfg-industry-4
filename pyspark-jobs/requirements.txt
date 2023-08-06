@@ -1,0 +1,7 @@
+numpy==1.19.2
+pyspark==3.0.1
+setuptools
+hdfs==2.5.8
+psutil==5.8.0
+pandas>=0.23.2
+pyArrow >= 0.15.1

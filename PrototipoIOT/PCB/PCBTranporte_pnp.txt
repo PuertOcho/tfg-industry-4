@@ -1,0 +1,29 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=PCBTranporte
+*Date=20:24:03
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;13.7454;-26.805;-90;Bottom;U1
+2;;;97.5654;-62.3511;0;Bottom;Hole1
+3;;;97.5654;-2.66109;0;Bottom;Hole2
+4;;THT;8.75245;-54.9851;90;Bottom;J1
+5;;;82.2804;-30.7493;180;Bottom;M1
+6;;;42.4868;-44.4844;0;Bottom;SIM800L1
+7;;;2.31545;-2.66109;0;Bottom;Hole3
+8;;;43.4536;-16.5948;0;Bottom;M2
+9;;THT;64.5454;-12.8211;-90;Bottom;J8
+10;;THT;64.5454;-15.3611;-90;Bottom;J5
+11;;;45.6891;-61.9024;0;Bottom;TXT1
+12;;;2.31545;-62.3511;0;Bottom;Hole4
+13;;THT;61.9419;-35.6811;90;Bottom;J7
+14;4.7mF;200 mil [THT, electrolytic];62.0054;-50.9211;90;Bottom;C2

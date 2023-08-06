@@ -1,0 +1,21 @@
+
+1. Arrancar servidor
+	- Importamos el proyecto tfg-crud-server a Spring Tool Suite 4 o Eclipse
+	- Dentro de la carpeta del proyecto actualizamos las dependencias
+		mvn dependency:purge-local-repository
+	- Usar Maven para configurar los archivos necesarios para eclipse
+		mvn eclipse:eclipse	
+	- Ejecutamos la aplicacion
+		Run as > Spring Boot App
+
+2. Arrancar la aplicacion
+	- Dentro de la carpeta tfg-app 
+	- Descargamos las dependencias del proyecto	
+		npm i
+	- Generamos la apk para introducirla en el dispositivo
+		ionic cordova build android --device
+	- Tambien podemos ejecutarla en entorno Web 
+		ionic serve
+
+3. Hacemos predicciones
+	- Desde Postman y con el servidor arrancado, hacemos una llamada a http://localhost:8081/api/sparkAction?action=predict
