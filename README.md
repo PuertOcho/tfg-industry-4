@@ -6,25 +6,25 @@
 **Universidad de Sevilla, Noviembre 2022**
 Publicado en noviembre 2022 por Antonio José Puerto Borreguero Copyright © MMXXII [antoniopuerto8@gmail.com](mailto:antoniopuerto8@gmail.com)
 
-
-
 # Sin mucho texto
 ---
 
+Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo es digitalizar la misma. En nuestro caso, estudiaremos si es rentable que un producto siga en el proceso de producción cuando no ha cumplido con los requisitos de calidad que el modelo de aprendizaje automático ha establecido.
+
+Por lo tanto podemos dividir el proyecto en 3 partes fundamentales,
+Diseño e implementación de un prototipo que nos permite recoger estos datos:
+![](imagenes/imagen_resumen_0.png)
+![](imagenes/imagen_resumen_1.png)
+
+Tenemos que tener control de todo el ciclo de vida del dato. Esto incluyo una transformación previa para que el modelo(s) de IA pueda consumirlo y una transformación previa al guardado en la base de datos.
+![](imagenes/imagen_resumen_2.png)
+
+Por ultimo una aplicación simple que nos permite visualizar todo el proceso.
+![](imagenes/imagen_resumen_3.png)
+![](imagenes/imagen_resumen_4.png)
 
 ## Articulo completo en markdown o disponible en pdf
 ---
-Yo, D. Antonio José Puerto Borreguero.
-
-#### **DECLARO**
-
-mi autoría del trabajo que se presenta en la memoria de este trabajo fin de grado que tiene por título:
-
-Una solución para la industria 4.0
-
-Lo cual firmo,
-
-Fdo. D. Antonio José Puerto Borreguero en la Universidad de Sevilla 28/11/2022
 
 ### **Resumen**
 
@@ -32,7 +32,10 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 
 # **Índice general**
 
+# **Índice general**
+
 | I  | Introducción                            | 3  |
+|----|-----------------------------------------|----|
 |    | 1. Contexto                             | 5  |
 |    | 1.1. Introducción .                     | 6  |
 |    | 1.2. Estado del arte                    | 8  |
@@ -50,7 +53,9 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 |    | 4.2. Procesos                           | 29 |
 |    | 4.2.1. Etapa de Proveedores .           | 29 |
 |    | 4.2.2. Etapa de transporte a la fabrica | 29 |
+
 |     | 4.2.3. Etapa de fabricación                               | 30 |
+|-----|-----------------------------------------------------------|----|
 |     | 4.2.4. Etapa de transporte al almacén                     | 30 |
 |     | 4.2.5. Etapa de almacenamiento                            | 31 |
 |     | 4.3. Modelo de datos .                                    | 32 |
@@ -76,11 +81,13 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 |     |                                                           |    |
 
 | 7.2. Conclusión .          | 90 |
+|----------------------------|----|
 | Referencias bibliográficas | 91 |
 
 # **Índice de figuras**
 
 | 1.1. Representación de la distribución geográfica de población con intole<br>rancia a la lactosa. Los tonos azules indican individuos lactasa persis<br>tente y los tonos rojos lactasa no persistente (Modificado de Szilagyi |    |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
 | and Ishayek, 2018). .                                                                                                                                                                                                          | 7  |
 | 4.1. Diagrama BPMN - Fase proveedores                                                                                                                                                                                          | 29 |
 | 4.2. Diagrama BPMN - Fase transporte a fabrica .                                                                                                                                                                               | 29 |
@@ -100,7 +107,9 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 | 5.9. Node red - Ejemplo nodo función                                                                                                                                                                                           | 51 |
 | 5.10.Node red - Nodos disponibles                                                                                                                                                                                              | 52 |
 | 5.11.Node red - Proceso AA                                                                                                                                                                                                     | 53 |
+
 | 5.12.Node red - Proceso AB                                                                                                                                                                | 54 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
 | 5.13.Lógica Proceso B                                                                                                                                                                     | 55 |
 | 5.14.Node red - Proceso B .                                                                                                                                                               | 55 |
 | 5.15.Node red - Proceso CA                                                                                                                                                                | 56 |
