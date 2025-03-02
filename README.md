@@ -1,9 +1,13 @@
 # **Una solución para la industria 4.0**
 ---
 **Antonio José Puerto Borreguero**
+
 **Trabajo fin de Grado**
+
 **Supervisado por Dr. Ángel Jesús Varela Vaca and Dr. Álvaro Valencia Parra**
+
 **Universidad de Sevilla, Noviembre 2022**
+
 Publicado en noviembre 2022 por Antonio José Puerto Borreguero Copyright © MMXXII [antoniopuerto8@gmail.com](mailto:antoniopuerto8@gmail.com)
 
 
