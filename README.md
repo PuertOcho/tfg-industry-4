@@ -1,22 +1,20 @@
-## **Una solución para la industria 4.0**
-
-### **Antonio José Puerto Borreguero**
-
-### **Trabajo fin de Grado**
-
-### **Supervisado por Dr. Ángel Jesús Varela Vaca and Dr. Álvaro Valencia Parra**
-
-![](imagenes/_page_0_Picture_4.jpeg)
-
-**Universidad de Sevilla**
-
-**noviembre 2022**
-
+# **Una solución para la industria 4.0**
+---
+**Antonio José Puerto Borreguero**
+**Trabajo fin de Grado**
+**Supervisado por Dr. Ángel Jesús Varela Vaca and Dr. Álvaro Valencia Parra**
+**Universidad de Sevilla, Noviembre 2022**
 Publicado en noviembre 2022 por Antonio José Puerto Borreguero Copyright © MMXXII [antoniopuerto8@gmail.com](mailto:antoniopuerto8@gmail.com)
 
-Realizado en Noviembre de 2022
 
-Yo, D. Antonio José Puerto Borreguero con NIF número 29510356E,
+
+# Sin mucho texto
+---
+
+
+## Articulo completo en markdown o disponible en pdf
+---
+Yo, D. Antonio José Puerto Borreguero.
 
 #### **DECLARO**
 
@@ -30,14 +28,11 @@ Fdo. D. Antonio José Puerto Borreguero en la Universidad de Sevilla 28/11/2022
 
 ### **Resumen**
 
-i
-
 Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo es digitalizar la misma. Se abordarán tecnologías que nos permitan recolectar datos a través de dispositivos y analizarlos para poder tomar decisiones. En nuestro caso, estudiaremos si es rentable que un producto siga en el proceso de producción cuando no ha cumplido con los requisitos de calidad que el modelo de aprendizaje automático ha establecido. Para esto se utilizaran modelos de inteligencia artificial que nos permitan determinar en cada fase del proceso si es producto cumple con los requisitos de calidad, esto nos permite tomar decisiones en tiempo real sobre que acción realizar en cada momento. Por ejemplo, no tiene sentido seguir invirtiendo recursos materiales y económicos en un producto que no se podrá vender por que será desechado. El objetivo principal no es ofrecer una solución a una empresa para generar mas ingresos, sino optimizar el sistema ya existente para anticiparnos a los errores y no gastar recursos innecesarios. Por ultimo, se proporcionará también una aplicación que nos permita visualizar de forma cómoda los datos en tiempo real de la empresa y todos sus procesos.
 
 # **Índice general**
 
 | I  | Introducción                            | 3  |
-|----|-----------------------------------------|----|
 |    | 1. Contexto                             | 5  |
 |    | 1.1. Introducción .                     | 6  |
 |    | 1.2. Estado del arte                    | 8  |
@@ -55,9 +50,7 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 |    | 4.2. Procesos                           | 29 |
 |    | 4.2.1. Etapa de Proveedores .           | 29 |
 |    | 4.2.2. Etapa de transporte a la fabrica | 29 |
-
 |     | 4.2.3. Etapa de fabricación                               | 30 |
-|-----|-----------------------------------------------------------|----|
 |     | 4.2.4. Etapa de transporte al almacén                     | 30 |
 |     | 4.2.5. Etapa de almacenamiento                            | 31 |
 |     | 4.3. Modelo de datos .                                    | 32 |
@@ -83,13 +76,11 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 |     |                                                           |    |
 
 | 7.2. Conclusión .          | 90 |
-|----------------------------|----|
 | Referencias bibliográficas | 91 |
 
 # **Índice de figuras**
 
 | 1.1. Representación de la distribución geográfica de población con intole<br>rancia a la lactosa. Los tonos azules indican individuos lactasa persis<br>tente y los tonos rojos lactasa no persistente (Modificado de Szilagyi |    |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
 | and Ishayek, 2018). .                                                                                                                                                                                                          | 7  |
 | 4.1. Diagrama BPMN - Fase proveedores                                                                                                                                                                                          | 29 |
 | 4.2. Diagrama BPMN - Fase transporte a fabrica .                                                                                                                                                                               | 29 |
@@ -109,9 +100,7 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 | 5.9. Node red - Ejemplo nodo función                                                                                                                                                                                           | 51 |
 | 5.10.Node red - Nodos disponibles                                                                                                                                                                                              | 52 |
 | 5.11.Node red - Proceso AA                                                                                                                                                                                                     | 53 |
-
 | 5.12.Node red - Proceso AB                                                                                                                                                                | 54 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
 | 5.13.Lógica Proceso B                                                                                                                                                                     | 55 |
 | 5.14.Node red - Proceso B .                                                                                                                                                               | 55 |
 | 5.15.Node red - Proceso CA                                                                                                                                                                | 56 |
@@ -149,8 +138,6 @@ Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo
 ## <span id="page-10-0"></span>**Introducción**
 
 ### **Contexto**
-
-**1**
 
 <span id="page-11-0"></span>E n esta sección daremos una breve introducción en el contexto del problema, ademas del estado actual de las tecnologías y los posibles riesgos que pueda entrañar el proyecto.
 
@@ -192,8 +179,6 @@ En esta sección listamos los riesgos a los que nuestro proyecto puede enfrentar
 
 ### **Objetivos**
 
-**2**
-
 <span id="page-16-0"></span>E n esta capitulo explicaremos por que hemos elegido este proyecto y cuales son los objetivos del mismo.
 
 #### <span id="page-17-0"></span>**2.1 Motivación**
@@ -223,8 +208,6 @@ De forma paralela nos ayudará:
 ### <span id="page-19-0"></span>**Análisis y Diseño**
 
 ### <span id="page-20-0"></span>**Análisis de requisitos**
-
-**3**
 
 E sta sección explicara la arquitectura que tiene el proyecto, así como las fases que lo componen. También se enumeraran los distintos requisitos que debe tener el proyecto para cumplirse con éxito.
 
@@ -377,8 +360,6 @@ E sta sección explicara la arquitectura que tiene el proyecto, así como las fa
 - **NRF-05**: La aplicación debe ser multiplataforma, poder hacer uso en dispositivos IOS y Android
 ### **Diseño del sistema**
 
-**4**
-
 <span id="page-28-0"></span>E sta sección se encarga de explicar los casos de uso, procesos, modelo de datos y arquitectura del sistema
 
 #### <span id="page-29-0"></span>**4.1 Casos de uso**
@@ -513,9 +494,8 @@ En el siguiente diagrama mostramos que estructura tiene el sistema, ademas de co
 
 ### <span id="page-39-0"></span>**Desarrollo e implementacion**
 
-E n este capitulo implementaremos todas las tecnologías anteriormente mencionadas. En el explicaremos los detalles de la implementación y como interconectar todas estas tecnologías.
+En este capitulo implementaremos todas las tecnologías anteriormente mencionadas. En el explicaremos los detalles de la implementación y como interconectar todas estas tecnologías.
 
-**5**
 
 #### <span id="page-40-0"></span>**5.1 Arquitectura del sistema**
 
@@ -765,21 +745,6 @@ La figura [§5.9](#page-53-1) representa la implementación básica de un **nodo
 Como ya dijimos en la presentación de esta herramienta, disponemos de un amplio abanico de nodos. Unos ya integrados por defecto como se muestra en la figura [§5.10](#page-54-0) y otros disponibles desde la propia librería de **Node-red** facilitándonos el camino ya que muchas compañías como **MongoDB** desarrollan sus propios módulos y nos ahorran tener que implementar todo el proceso desde cero.
 
 Los **flujos** son colecciones de nodos que actúan como uno en el espacio de trabajo. Se pueden usar para reducir la complejidad visual de un flujo o para agrupar un grupo de nodos como un flujo reutilizable que se usa en varios lugares. Nos permite exportar estos flujos en formato JSON, esto lo hace muy versátil a la hora de importarlo en otros flujos proyectos.
-
-| v common            | v function         | v network           | ~ sequence        | v parser     | v storage          |
-|---------------------|--------------------|---------------------|-------------------|--------------|--------------------|
-| 11<br>inject        | function<br>0<br>D | D)<br>mqtt in<br>D  | 三〇〇<br>split      | 0 1.2<br>csv | file<br>D-7<br>0   |
-| m<br>debug          | switch<br>0<br>1   | mqtt out<br>D       | DEDI<br>join<br>0 | html<br><>   | 15<br>file in<br>0 |
-| complete            | DW<br>change       | 23<br>http in       | sort<br>D         | json         | Q<br>watch         |
-| I<br>catch          | range<br>0         | Ohttp response      | 08/2<br>batch     | >><br>xml    | mongo -            |
-| status              | template<br>0<br>0 | OK<br>http request  |                   | y<br>yaml    | client in          |
-| link in<br>D-       | delay<br>00        | 2<br>websocket in C |                   |              | mongodb<br>node    |
-| link out<br>0-<br>1 | trigger<br>0       | websocket<br>10     |                   |              | mongodb in         |
-| comment             | 0<br>exec          | out<br>ਮੀ<br>tcp in |                   |              | tail<br>0          |
-|                     | 0 1<br>rbe         | tcp out             |                   |              | Omongodb out       |
-|                     |                    | tcp request         |                   |              |                    |
-|                     |                    | 人<br>udp in         |                   |              |                    |
-|                     |                    | 2<br>udo out<br>0   |                   |              |                    |
 
 <span id="page-54-0"></span>Figura 5.10: Node red - Nodos disponibles
 
@@ -1434,18 +1399,14 @@ CB - Conservación en tanques
         "temperature": 2.818322941290117,
         "preasure": 0.8643708996665576,
         "trazabilityId": "7ZC9E3ZJV9AS"
+
+}
 ```
-}
-
-{
-
-}
-
-{
 
 CC - Proceso de pasteurización
 
 ```
+{
 "stage": "Fabricacion",
 "task": "CC",
 "timestamp": 1667415400923,
@@ -1453,10 +1414,12 @@ CC - Proceso de pasteurización
 "temperature": 79.69729210930927,
 "preasure": 0.9951338722155484,
 "trazabilityId": "7ZC9E3ZJV9AS"
+}
 ```
 CD - Proceso de homogeneización
 
 ```
+{
 "stage": "Fabricacion",
 "task": "CD",
 "timestamp": 1667415418164,
@@ -1464,14 +1427,13 @@ CD - Proceso de homogeneización
 "temperature": 68.18860282948802,
 "preasure": 110.75578059926326,
 "trazabilityId": "7ZC9E3ZJV9AS"
-```
 }
+```
+
 
 CE - Proceso de embotellado
-
-{
-
 ```
+{
 "stage": "Fabricacion",
 "task": "CE",
 "timestamp": 1667415413585,
@@ -1479,14 +1441,12 @@ CE - Proceso de embotellado
 "temperature": 17.502371123739884,
 "preasure": 1.171199209660584,
 "trazabilityId": "7ZC9E3ZJV9AS"
+}
 ```
-#### }
-
-{
-
 CF - Preparar pallets
 
 ```
+{
 "trazabilityId": "7ZC9E3ZJV9AS",
 "stage": "Fabricacion",
 "task": "CF",
@@ -1499,15 +1459,12 @@ CF - Preparar pallets
         "THID068VMQ",
         "1EW628BTI8"
 ]
+}
 ```
 D - Transporte 2
 
 ```
-{
-```
 }
-
-```
 "trazabilityId": "7ZC9E3ZJV9AS",
 "stage": "Transporte 2",
 "task": "D",
@@ -1519,14 +1476,13 @@ D - Transporte 2
 "humidity": 72.88985856992255,
 "latitude": 37.329142459080686,
 "longitude": -5.938369782611849
-```
 }
-
-{
+```
 
 EA - Identificar pallets
 
 ```
+{
 "_id": {
         "$oid": "6362bd894d83681154964524"
 },
@@ -1535,9 +1491,6 @@ EA - Identificar pallets
 "timestamp": 1667415433516,
 "worker": "Trabajador 19",
 "order": "22KFMWR0",
-```
-
-```
 "pallets": [
 "CUIQVGL7N2",
 "XOMF47DAQ6",
@@ -1547,14 +1500,13 @@ EA - Identificar pallets
 "trazabilityId": "7ZC9E3ZJV9AS",
 "_msgid": "df726f27.de7ea",
 "_event": "node:2cac2744.8e4cd8"
-```
 }
-
-{
+```
 
 EB - Almacenar pallets
 
 ```
+{
 "trazabilityId": "7ZC9E3ZJV9AS",
 "stage": "Almacen",
 "task": "EB",
@@ -1584,7 +1536,6 @@ EB - Almacenar pallets
         }
 ]
 ```
-}
 
 #### <span id="page-86-0"></span>**6.3 Prueba 3: Predicción sobre la calidad del producto**
 
@@ -1598,9 +1549,6 @@ Objeto guardado en la colección "TFGCollectionProcessed" de MongoDB. Como el fa
 
 ```
 {
-```
-
-```
 "task": "B",
 "milktank": "CUIQVGL7N2",
 "minTemperature": -3.5953972493609143,
@@ -1611,8 +1559,8 @@ Objeto guardado en la colección "TFGCollectionProcessed" de MongoDB. Como el fa
 "avgHumidity": 69.13189269448434,
 "prediction": 0,
 "stage": "Prediction"
-```
 }
+```
 
 ## **Parte V**
 
