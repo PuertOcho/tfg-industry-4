@@ -30,7 +30,7 @@ Tenemos que tener control de todo el ciclo de vida del dato. Esto incluyo una tr
 Por ultimo una aplicación simple que nos permite visualizar todo el proceso
 
 ![](imagenes/imagen_resumen_4.png)
-![](imagenes/imagen_resumen_5.png)
+![](imagenes/imagen_resumen_6.png)
 
 ## Articulo completo en markdown o disponible en pdf
 ---
