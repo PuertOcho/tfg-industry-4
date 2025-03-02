@@ -26,6 +26,7 @@ Diseño e implementación de un prototipo que nos permite recoger estos datos:
 Tenemos que tener control de todo el ciclo de vida del dato. Esto incluyo una transformación previa para que el modelo(s) de IA pueda consumirlo y una transformación previa al guardado en la base de datos.
 
 ![](imagenes/imagen_resumen_3.png)
+Aqui si vale la pena leerlo un poco mas en profundidad -> https://github.com/PuertOcho/tfg-industry-4?tab=readme-ov-file#542-procesamiento-de-datos
 
 Por ultimo una aplicación simple que nos permite visualizar todo el proceso
 
