@@ -6,7 +6,7 @@
 
 ### **Supervisado por Dr. Ángel Jesús Varela Vaca and Dr. Álvaro Valencia Parra**
 
-![](_page_0_Picture_4.jpeg)
+![](imagenes/_page_0_Picture_4.jpeg)
 
 **Universidad de Sevilla**
 
