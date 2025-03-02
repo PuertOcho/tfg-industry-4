@@ -164,7 +164,7 @@ Durante los siguientes capítulos veremos como una empresa, en nuestro caso lác
 
 El desarrollo de esta propuesta se realizará a una empresa ficticia cuya actividad principal es la distribución y fabricación de leche. Escogido este sector por el aumento de intolerancias de este tipo en la población y la creciente preocupación con los hábitos alimenticios 5 . Ya que se estima que aproximadamente dos tercios de la población adulta mundial tiene esta sintomatología.
 
-![](_page_13_Figure_3.jpeg)
+![](imagenes/_page_13_Figure_3.jpeg)
 
 <span id="page-13-1"></span>Figura 1.1: Representación de la distribución geográfica de población con intolerancia a la lactosa. Los tonos azules indican individuos lactasa persistente y los tonos rojos lactasa no persistente (Modificado de Szilagyi and Ishayek, 2018).
 
@@ -448,33 +448,33 @@ Para una mejor visualización del proceso, se ha dividido todo el modelo de nego
 
 #### <span id="page-32-1"></span>**4.2.1 Etapa de Proveedores**
 
-![](_page_32_Figure_4.jpeg)
+![](imagenes/_page_32_Figure_4.jpeg)
 
 <span id="page-32-3"></span>Figura 4.1: Diagrama BPMN - Fase proveedores
 
 #### <span id="page-32-2"></span>**4.2.2 Etapa de transporte a la fabrica**
 
-![](_page_32_Figure_7.jpeg)
+![](imagenes/_page_32_Figure_7.jpeg)
 
 <span id="page-32-4"></span>Figura 4.2: Diagrama BPMN - Fase transporte a fabrica
 
 #### <span id="page-33-0"></span>**4.2.3 Etapa de fabricación**
 
-![](_page_33_Figure_2.jpeg)
+![](imagenes/_page_33_Figure_2.jpeg)
 
 <span id="page-33-2"></span>Figura 4.3: Diagrama BPMN - Fase fabrica
 
 #### <span id="page-33-1"></span>**4.2.4 Etapa de transporte al almacén**
 
-![](_page_33_Figure_5.jpeg)
+![](imagenes/_page_33_Figure_5.jpeg)
 
 <span id="page-33-3"></span>Figura 4.4: Diagrama BPMN - Fase transporte a almacén
 
 4.2. PROCESOS
 
-<span id="page-34-0"></span>![](_page_34_Figure_1.jpeg)
+<span id="page-34-0"></span>![](imagenes/_page_34_Figure_1.jpeg)
 
-![](_page_34_Figure_2.jpeg)
+![](imagenes/_page_34_Figure_2.jpeg)
 
 <span id="page-34-1"></span>Figura 4.5: Diagrama BPMN - Fase almacén
 
@@ -487,7 +487,7 @@ En el siguiente diagrama podemos ver como se relacionan los datos entre si, esta
 - **ProcessedTask**: Este modelo guarda los datos de las predicciones hechas por Spark
 - **StorageModel**: Es la clase encargada de guardar los datos en la fase de almacenamiento
 
-![](_page_35_Figure_7.jpeg)
+![](imagenes/_page_35_Figure_7.jpeg)
 
 <span id="page-35-1"></span>Figura 4.6: Modelo UML
 
@@ -503,7 +503,7 @@ En el siguiente diagrama mostramos que estructura tiene el sistema, ademas de co
 - **SparkAction**: Este componente ejecuta la aplicación Spark que le indiquemos
 - **Node red**: Es el componente encargado de generar los dados que utilizamos en el proyecto
 
-![](_page_37_Figure_1.jpeg)
+![](imagenes/_page_37_Figure_1.jpeg)
 
 <span id="page-37-0"></span>Figura 4.7: Diagrama de componentes
 
@@ -521,7 +521,7 @@ E n este capitulo implementaremos todas las tecnologías anteriormente mencionad
 
 A continuación, explicaremos a alto nivel cuales son cada una de las partes que intervienen en el proceso además de explicar cuál es su función dentro de la arquitectura del proyecto. Como podemos ver en el diagrama [§5.1,](#page-40-1) el sistema está compuesto por 5 etapas y los datos generados en cada fase del proceso serán especificados en los requisitos de información.
 
-![](_page_40_Picture_3.jpeg)
+![](imagenes/_page_40_Picture_3.jpeg)
 
 Figura 5.1: Etapas de la cadena
 
@@ -637,7 +637,7 @@ El primer paso sera buscar la plantilla de los componentes que vamos a utilizar 
 
 En esta primera vista podemos ver la posición que tendrán los componentes en la placa impresa, las pistas son de 24 micras de espesor y tiene un tamaño de 105.8 x 58.8 mm. Lo complicado en este punto del diseño es ser capaz de integrar todas las conexiones necesarias en una única capa de silicio ya que si necesitamos incluir mas capas, incrementara el coste de fabricación cuando la solicitemos.
 
-![](_page_47_Figure_1.jpeg)
+![](imagenes/_page_47_Figure_1.jpeg)
 
 <span id="page-47-0"></span>Figura 5.2: PCB Fritzing
 
@@ -651,11 +651,11 @@ Una vez tenemos todas conexiones hechas y nuestro diseño listo para funcionar t
 
 El fabricante por el que hemos optado es la compañía asiática de placas impresas **JLCPCB**, que se especializa en prototipos de PCB rápidos y producción de PCB de lotes pequeños y medianos. Tiene una web intuitiva a la hora de subir los documentos y te informa bastante bien sobre el estado del pedido.
 
-![](_page_48_Figure_1.jpeg)
+![](imagenes/_page_48_Figure_1.jpeg)
 
 <span id="page-48-0"></span>Figura 5.3: Esquemático Fritzing
 
-![](_page_48_Figure_3.jpeg)
+![](imagenes/_page_48_Figure_3.jpeg)
 
 #### <span id="page-48-1"></span>Figura 5.4: Pedido JLCPCB
 
@@ -665,11 +665,11 @@ Con esto tenemos todo el hardware necesario para empezar a recoger información 
 
 Como comentamos anteriormente el micro-controlador dispone de dos núcleos por lo que podemos realizar dos acciones simultáneamente, en nuestro caso el hi-
 
-![](_page_49_Picture_1.jpeg)
+![](imagenes/_page_49_Picture_1.jpeg)
 
 Figura 5.5: Representación tridimensional de la carcasa para el dispositivo IoT
 
-<span id="page-49-0"></span>![](_page_49_Figure_3.jpeg)
+<span id="page-49-0"></span>![](imagenes/_page_49_Figure_3.jpeg)
 
 <span id="page-49-1"></span>Figura 5.6: Diagrama de ejecución ESP32 Dual Core
 
@@ -738,7 +738,7 @@ Algunos de los comandos utilizados no son necesario para el establecimiento de c
 
 El framework **PlatformIO** nos facilitara mucho la tarea de compilar y cargar el código en el micro-controlador así como de importar las librerías de los módulos utilizados. En este punto del proyecto, nuestro hardware ya es capaz de enviar los datos por una petición HTTP GET y recibir esta llamada para guardar los datos. Aunque podríamos haber implementado el punto de acceso de la petición GET en el servidor Spring que hemos utilizado para la aplicación, hemos decidido implementarla en Node-red para mostrar también como desplegar un API Rest simple en esta herramienta.
 
-![](_page_52_Figure_9.jpeg)
+![](imagenes/_page_52_Figure_9.jpeg)
 
 <span id="page-52-2"></span>Figura 5.7: Node red - API Rest
 
@@ -752,13 +752,13 @@ En **Node-red** tenemos dos tipos de **nodos**. Los **nodos de inyección** que 
 
 La figura [§5.8](#page-53-0) representa la implementación básica de un **nodo de inyección** que envía un mensaje y es recogido por un nodo de depuración.
 
-![](_page_53_Figure_3.jpeg)
+![](imagenes/_page_53_Figure_3.jpeg)
 
 <span id="page-53-0"></span>Figura 5.8: Node red - Ejemplo nodo inyección
 
 La figura [§5.9](#page-53-1) representa la implementación básica de un **nodo de función** para mostrar en un nodo de depuración el timestamp que es una marca de tiempo estandarizada.
 
-![](_page_53_Figure_6.jpeg)
+![](imagenes/_page_53_Figure_6.jpeg)
 
 <span id="page-53-1"></span>Figura 5.9: Node red - Ejemplo nodo función
 
@@ -795,7 +795,7 @@ Las primeras lineas de código las dedicaremos a la implementación de funciones
 
 5.4. GENERACIÓN Y PROCESAMIENTO DE LOS DATOS
 
-![](_page_55_Figure_1.jpeg)
+![](imagenes/_page_55_Figure_1.jpeg)
 
 <span id="page-55-0"></span>Figura 5.11: Node red - Proceso AA
 
@@ -821,7 +821,7 @@ La salida de este nodo genera un objeto con los valores definidos en el requisit
 
 El requisito **RI-02** corresponde con los datos generados por el proceso **AB**, encargado de verificar los bidones y prepararlos para continuar a la fase de transporte. La principal diferencia con el nodo anterior es la forma de recibir los datos ya que a partir de este nodo necesitaremos guardar la información de los nodos previos para mantener una continuidad en los datos.
 
-![](_page_56_Figure_1.jpeg)
+![](imagenes/_page_56_Figure_1.jpeg)
 
 <span id="page-56-0"></span>Figura 5.12: Node red - Proceso AB
 
@@ -845,7 +845,7 @@ Como mencionamos antes, este proceso es el encargado de simular los datos que ge
 
 Tomando como punto de partida el mensaje del proceso AB, lo primero que haremos sera inicializar los valores constantes para este proceso. Los paramentos **tarea** y **etapa** los estableceremos a "B" y "Transporte 1" respectivamente, mientras que los parámetros **transporte** y **trabajador** se generan aleatoriamente en cada iteración de la cadena como sucedió con **trabajador** y **proveedor** en el proceso anterior. Otros parámetros como **identificador de trazabilidad** y **lote del pedido** se mantendrán con respecto al nodo anterior.
 
-![](_page_57_Figure_1.jpeg)
+![](imagenes/_page_57_Figure_1.jpeg)
 
 <span id="page-57-0"></span>Figura 5.13: Lógica Proceso B
 
@@ -865,7 +865,7 @@ Este subfujo genera los datos definidos para los requisitos de información RI-0
 
 El requisito **RI-04** corresponde con el proceso **CA** encargado de identificar los tanques que leche provenientes del primer transporte, es la tarea previa al tratamiento del producto.
 
-![](_page_58_Figure_4.jpeg)
+![](imagenes/_page_58_Figure_4.jpeg)
 
 <span id="page-58-0"></span>Figura 5.15: Node red - Proceso CA
 
@@ -896,19 +896,19 @@ Es necesario determinar que rango valores serán correctos en cada proceso de la
 
 La implementación en **Node-red** de los procesos mencionados es muy parecidas en cuanto a código y nodos utilizados. El proceso CB tiene la particularidad de modificar el parámetro **orderFinished**, esto lo haremos si hemos terminado de tomar todas las mediciones de todos los taques de leche recibidos. En el resto de procesos de la fabrica son iguales que la figura [§5.17](#page-60-0) donde solo se puede modificar el parámetro **finished** y variar los valores de temperatura y presión.
 
-![](_page_59_Figure_5.jpeg)
+![](imagenes/_page_59_Figure_5.jpeg)
 
 <span id="page-59-0"></span>Figura 5.16: Node red - Proceso CB
 
 El requisito **RI-09** corresponde con el proceso **CF** encargado de agrupar y preparar los pallet para ser enviados al almacén en la siguiente etapa. Esto lo haremos siempre y cuando el parámetro **orderFinished** este a **verdadero**, lo que nos indica que la recogida de datos en el proceso de fabricación ha terminado. Cuando esto
 
-![](_page_60_Figure_1.jpeg)
+![](imagenes/_page_60_Figure_1.jpeg)
 
 <span id="page-60-0"></span>Figura 5.17: Node red - Proceso CE
 
 pase, se guarda el objeto en la base de datos y lo enviaremos a la siguiente etapa de transporte.
 
-![](_page_60_Figure_4.jpeg)
+![](imagenes/_page_60_Figure_4.jpeg)
 
 <span id="page-60-1"></span>Figura 5.18: Node red - Proceso CF
 
@@ -916,7 +916,7 @@ pase, se guarda el objeto en la base de datos y lo enviaremos a la siguiente eta
 
 La información definida para el requisito de información **RI-10**, corresponde con el proceso **D** encargado de transportar los pallets con los productos recién salidos de la fabrica. El objetivo para este proceso es el mismo que para la primera fase de transporte, recogeremos datos de temperatura y humedad y simularemos el recorrido de un camión especificándole coordenadas distintas a las que se le proporcionaron en la primera fase de transporte.
 
-![](_page_60_Figure_8.jpeg)
+![](imagenes/_page_60_Figure_8.jpeg)
 
 <span id="page-60-2"></span>Figura 5.19: Node red - Proceso CF
 
@@ -926,13 +926,13 @@ Este subfujo genera los datos para los requisitos de información **RI-11**, **R
 
 El requisito de informacion RI-11 corresponde con el proceso EA encargado de identificar los pallets que han llegado al almacén. Este proceso genera aleatoriamente el parámetro worker, siendo el empleado que identifica el pallet. Y utilizado parámetros de procesos anteriores como order, pallets y trazabilityId. La implementación en **Node-red** para estos dos últimos procesos es muy similar al primero donde identificábamos tanques de leche.
 
-![](_page_61_Figure_2.jpeg)
+![](imagenes/_page_61_Figure_2.jpeg)
 
 <span id="page-61-0"></span>Figura 5.20: Node red - Proceso EA
 
 Los requisitos de información RI-12 y RI-13 corresponde con el proceso CB encargado de almacenar los pallets recién registrados. Esto lo haremos con un objeto de tipo almacenamiento que contendrá en numero de identificación del pallet, el pasillo en el que se guardada y el numero de la estantería. El final de este proceso esta conectado con el principio de la cadena, lo que indicara a **Node-red** que podemos comenzar con una nueva iteración en la cadena para generar datos.
 
-![](_page_61_Figure_5.jpeg)
+![](imagenes/_page_61_Figure_5.jpeg)
 
 <span id="page-61-1"></span>Figura 5.21: Node red - Proceso EB
 
@@ -940,7 +940,7 @@ Con todos los requisitos de información cumplidos, es el momento de empezar a g
 
 Como hemos podido observar, no todos los datos serán utilizados para hacer predicciones, en algunos casos solo mostraran información del proceso que se ha realizado. Por lo que podríamos hacer una división de los datos en tres categorías; correctos, erróneos y de información. Un dato sera determinado como correcto o erróneo dependiendo si cumple o no las restricciones cuantitativas impuestas en cada proceso y de información si el proceso no requiere de restricciones.
 
-![](_page_62_Figure_2.jpeg)
+![](imagenes/_page_62_Figure_2.jpeg)
 
 <span id="page-62-1"></span>Figura 5.22: Datos guardados en MongoDB
 
@@ -1129,13 +1129,13 @@ os.path.join(config.ROOT_DIR, 'data/models/model_B_D/
 ```
 Un transformador es un componente de alto nivel que puede agregar, eliminar o actualizar las características existentes en el marco de datos. Cada transformador tiene un método **transform()** que se llama cuando se ejecutan el pipeline.
 
-![](_page_69_Figure_1.jpeg)
+![](imagenes/_page_69_Figure_1.jpeg)
 
 <span id="page-69-0"></span>Figura 5.25: Estructura Transformer
 
 Un estimador es un componente de aprendizaje, el modelo devuelto transforma el marco de datos de acuerdo con los parámetros que se ajustan durante la fase de aprendizaje. Cada estimador tiene un método **fit()** que devuelve un Modelo que a su vez tiene un método **transform()**.
 
-![](_page_69_Figure_4.jpeg)
+![](imagenes/_page_69_Figure_4.jpeg)
 
 <span id="page-69-1"></span>Figura 5.26: Estructura Estimator
 
@@ -1195,7 +1195,7 @@ Las anotaciones que hemos utilizado con mas regularidad son las siguientes, aunq
 
 La anotación @RestController se aplica a una clase para identificarla como controlador de llamadas y se usa para crear servicios web RESTful usando Spring MVC. Spring RestController se encarga de asignar los datos de las llamadas al método del controlador definido. Una vez que el cuerpo de la respuesta se genera a partir del método del controlador, lo convierte en una respuesta JSON. Las API son conjuntos de reglas que son utilizados para diseñar e integrar el software de las aplicaciones. Suele considerarse como el contrato entre el proveedor de información y el usuario, donde el consumidor establece el contenido que se necesita por una la llamada y el productor solicita una respuesta.
 
-![](_page_71_Figure_3.jpeg)
+![](imagenes/_page_71_Figure_3.jpeg)
 
 <span id="page-71-0"></span>Figura 5.27: Rest Service [Internet]. Arquitecturajava.com. 2022 [cited 2022 Nov 27]. Available from: https://www.arquitecturajava.com/wpcontent/uploads/springrestservicepublicacion1.gif
 
@@ -1203,7 +1203,7 @@ Para las siguientes anotación es necesario comprender que un Java Bean es un es
 
 @Autowired es una anotación que permite inyectar dependencias en la clase requerida. Al declarar todas las dependencias de beans en el proyecto Spring Boot, el contenedor de Spring puede conectar automáticamente las relaciones entre los
 
-![](_page_72_Figure_1.jpeg)
+![](imagenes/_page_72_Figure_1.jpeg)
 
 <span id="page-72-0"></span>Figura 5.28: Herencia de anotaciones
 
@@ -1314,7 +1314,7 @@ En la figura [§5.30](#page-76-0) tenemos una primera visualización de la aplic
 
 Cuando accedemos a la aplicación, tenemos una vista principal con cinco iconos circulares, uno por cada etapa en la cadena. Cada etapa nos muestra los procesos que intervienen en cada una, los procesos son representados con estilos distintos en función del tipo de tarea que realiza. En la figura [§5.31](#page-77-0) tenemos todas las vistas disponibles para los procesos de trazabilidad, divididas en tres capturas, la captura de la izquierda representa en un gráfico los valores de temperatura y presión recogidos durante la tarea **CB**. Ademas, en este mismo proceso podemos ver como cada tanque de leche recoge valores distintos por ser procesados individualmente. En la captura central por el contrario todos los taques comparten las misma temperatura en cada proceso de transporte, ademas como podemos observar la aplicación Spark determinó que este proceso no cumple con los requisitos de calidad y lo marcó con
 
-![](_page_76_Picture_1.jpeg)
+![](imagenes/_page_76_Picture_1.jpeg)
 
 Figura 5.30: Login y vista principal
 
@@ -1322,11 +1322,11 @@ Figura 5.30: Login y vista principal
 
 Por ultimo tenemos en la parte superior, una entrada de texto con dos botones, uno consultara al back-end con el **trazabilityId** introducido. El otro botón sirve para escanear un código de barras y realizara la misma función, este es generado a partir del **trazabilityId**. En un entorno real este código de barras podría están en un pallet o bidón pegado y solo es necesario escanearlo con la cámara del móvil para obtener su historial
 
-![](_page_77_Figure_1.jpeg)
+![](imagenes/_page_77_Figure_1.jpeg)
 
 <span id="page-77-0"></span>Figura 5.31: Vista de la aplicación
 
-<span id="page-78-0"></span>![](_page_78_Picture_1.jpeg)
+<span id="page-78-0"></span>![](imagenes/_page_78_Picture_1.jpeg)
 
 Figura 5.32: Vista de la aplicación
 
@@ -1344,9 +1344,9 @@ Figura 5.32: Vista de la aplicación
 
 Una visualización del dispositivo IoT finalizado
 
-![](_page_81_Picture_3.jpeg)
+![](imagenes/_page_81_Picture_3.jpeg)
 
-![](_page_81_Picture_4.jpeg)
+![](imagenes/_page_81_Picture_4.jpeg)
 
 <span id="page-81-2"></span>Figura 6.1: Prototipo dispositivo IoT
 
@@ -1590,7 +1590,7 @@ EB - Almacenar pallets
 
 Como podemos ver en la imagen, en el procesos B (Transporte a la fabrica), la temperatura a la que se ha transportado la leche ha sido demasiado baja y el modelo ha pronosticado correctamente un error de calidad.
 
-![](_page_86_Figure_3.jpeg)
+![](imagenes/_page_86_Figure_3.jpeg)
 
 <span id="page-86-1"></span>Figura 6.2: Prueba 3
 
