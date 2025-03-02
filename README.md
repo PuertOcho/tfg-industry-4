@@ -13,19 +13,25 @@ Publicado en noviembre 2022 por Antonio José Puerto Borreguero Copyright © MMX
 # Sin mucho texto
 ---
 
+![](imagenes/imagen_resumen_0.png)
+
 Este proyecto pretende mostrar una posible solución a una empresa cuyo objetivo es digitalizar la misma. En nuestro caso, estudiaremos si es rentable que un producto siga en el proceso de producción cuando no ha cumplido con los requisitos de calidad que el modelo de aprendizaje automático ha establecido.
 
 Por lo tanto podemos dividir el proyecto en 3 partes fundamentales,
 Diseño e implementación de un prototipo que nos permite recoger estos datos:
-![](imagenes/imagen_resumen_0.png)
-![](imagenes/imagen_resumen_1.png)
 
-Tenemos que tener control de todo el ciclo de vida del dato. Esto incluyo una transformación previa para que el modelo(s) de IA pueda consumirlo y una transformación previa al guardado en la base de datos.
+![](imagenes/imagen_resumen_1.png)
 ![](imagenes/imagen_resumen_2.png)
 
-Por ultimo una aplicación simple que nos permite visualizar todo el proceso.
+Tenemos que tener control de todo el ciclo de vida del dato. Esto incluyo una transformación previa para que el modelo(s) de IA pueda consumirlo y una transformación previa al guardado en la base de datos.
+
 ![](imagenes/imagen_resumen_3.png)
+
+Por ultimo una aplicación simple que nos permite visualizar todo el proceso.
+
+
 ![](imagenes/imagen_resumen_4.png)
+![](imagenes/imagen_resumen_5.png)
 
 ## Articulo completo en markdown o disponible en pdf
 ---
